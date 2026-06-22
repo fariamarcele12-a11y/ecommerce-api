@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server db.json --watch --port 5000",
+    "start": "node server.js"
+  },
+  "author": "Marcele e Fernando",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fariamarcele12-a11y/ecommerce-api.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fariamarcele12-a11y/ecommerce-api/issues"
+  },
+  "homepage": "https://github.com/fariamarcele12-a11y/ecommerce-api#readme"
+}

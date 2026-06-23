@@ -1,26 +1,16 @@
 {
-  "dependencies": {
-    "json-server": "^0.16.3"
-  },
   "name": "ecommerce-api",
   "version": "1.0.0",
+  "description": "E-commerce API com json-server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "json-server db.json --watch --port 5000",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "json-server --watch db.json --port 3000"
   },
-  "author": "Marcele e Fernando",
-  "license": "ISC",
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fariamarcele12-a11y/ecommerce-api.git"
+  "dependencies": {
+    "json-server": "^0.17.4"
   },
-  "keywords": [],
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/fariamarcele12-a11y/ecommerce-api/issues"
-  },
-  "homepage": "https://github.com/fariamarcele12-a11y/ecommerce-api#readme"
+  "devDependencies": {
+    "@vercel/node": "^2.0.0"
+  }
 }

@@ -1,18 +1,65 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "server.js",
-        "use": "@vercel/node",
-        "config": {
-          "includeFiles": ["db.json"]
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["db.json"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/categories(/.*)?",
+      "dest": "server.js"
+    },
+    {
+      "src": "/products(/.*)?",
+      "dest": "server.js"
+    },
+    {
+      "src": "/cart(/.*)?",
+      "dest": "server.js"
+    },
+    {
+      "src": "/orders(/.*)?",
+      "dest": "server.js"
+    },
+    {
+      "src": "/users(/.*)?",
+      "dest": "server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, PATCH, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "X-Requested-With, Content-Type, Accept, Origin, Authorization"
+        },
+        {
+          "key": "Access-Control-Allow-Credentials",
+          "value": "true"
         }
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "server.js"
-      }
-    ]
+      ]
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "JSON_SERVER_PORT": "3000"
   }
+}

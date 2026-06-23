@@ -242,7 +242,7 @@
       "oldPrice": 8999,
       "discount": 11,
       "images": ["https://picsum.photos/id/0/300/300"],
-      "category": "eletronicos",
+      "category": "Eletronicos",
       "condition": "new",
       "seller": {
         "id": 1,
@@ -263,7 +263,7 @@
       "oldPrice": 10999,
       "discount": 18,
       "images": ["https://picsum.photos/id/1/300/300"],
-      "category": "eletronicos",
+      "category": "Eletronicos",
       "condition": "new",
       "seller": {
         "id": 2,
@@ -284,7 +284,7 @@
       "oldPrice": 4499,
       "discount": 22,
       "images": ["https://picsum.photos/id/2/300/300"],
-      "category": "eletronicos",
+      "category": "Eletronicos",
       "condition": "new",
       "seller": {
         "id": 3,
@@ -368,7 +368,7 @@
       "oldPrice": 4999,
       "discount": 34,
       "images": ["https://picsum.photos/id/6/300/300"],
-      "category": "eletronicos",
+      "category": "Eletronicos",
       "condition": "used",
       "seller": {
         "id": 7,

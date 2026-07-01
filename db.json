@@ -43,6 +43,17 @@
           "active": true,
           "createdAt": "2024-01-01T00:00:00.000Z",
           "parentId": 1
+        },
+        {
+          "id": 14,
+          "name": "Acessórios",
+          "slug": "acessorios-eletronicos",
+          "description": "Carregadores, fones, capas",
+          "icon": "bi-headphones",
+          "productCount": 51,
+          "active": true,
+          "createdAt": "2024-01-01T00:00:00.000Z",
+          "parentId": 1
         }
       ]
     },
@@ -75,6 +86,28 @@
           "description": "Tênis, sapatos e sandálias",
           "icon": "bi-shoe-prints",
           "productCount": 54,
+          "active": true,
+          "createdAt": "2024-01-01T00:00:00.000Z",
+          "parentId": 2
+        },
+        {
+          "id": 23,
+          "name": "Acessórios",
+          "slug": "acessorios-moda",
+          "description": "Relógios, bolsas, joias",
+          "icon": "bi-watch",
+          "productCount": 43,
+          "active": true,
+          "createdAt": "2024-01-01T00:00:00.000Z",
+          "parentId": 2
+        },
+        {
+          "id": 24,
+          "name": "Jeans",
+          "slug": "jeans",
+          "description": "Calças e jaquetas jeans",
+          "icon": "bi-hdd-stack",
+          "productCount": 70,
           "active": true,
           "createdAt": "2024-01-01T00:00:00.000Z",
           "parentId": 2
@@ -113,6 +146,17 @@
           "active": true,
           "createdAt": "2024-01-01T00:00:00.000Z",
           "parentId": 3
+        },
+        {
+          "id": 33,
+          "name": "Cozinha",
+          "slug": "cozinha",
+          "description": "Utensílios e eletrodomésticos",
+          "icon": "bi-egg-fried",
+          "productCount": 66,
+          "active": true,
+          "createdAt": "2024-01-01T00:00:00.000Z",
+          "parentId": 3
         }
       ]
     },
@@ -148,6 +192,17 @@
           "active": true,
           "createdAt": "2024-01-01T00:00:00.000Z",
           "parentId": 4
+        },
+        {
+          "id": 43,
+          "name": "Futebol",
+          "slug": "futebol",
+          "description": "Bolas, chuteiras, uniformes",
+          "icon": "bi-trophy",
+          "productCount": 36,
+          "active": true,
+          "createdAt": "2024-01-01T00:00:00.000Z",
+          "parentId": 4
         }
       ]
     },
@@ -180,6 +235,17 @@
           "description": "Motos e scooters",
           "icon": "bi-bicycle",
           "productCount": 18,
+          "active": true,
+          "createdAt": "2024-01-01T00:00:00.000Z",
+          "parentId": 5
+        },
+        {
+          "id": 53,
+          "name": "Acessórios Automotivos",
+          "slug": "acessorios-automotivos",
+          "description": "Som, rodas, películas",
+          "icon": "bi-car-front",
+          "productCount": 16,
           "active": true,
           "createdAt": "2024-01-01T00:00:00.000Z",
           "parentId": 5
@@ -226,11 +292,15 @@
     {
       "id": 1,
       "name": "iPhone 15 Pro Max - 256GB",
-      "description": "Novo iPhone com chip A17 Pro, câmera de 48MP e bateria de longa duração",
+      "description": "Novo iPhone com chip A17 Pro, câmera de 48MP, bateria de longa duração e tela Super Retina XDR. Disponível nas cores Natural Titanium, Blue Titanium, White Titanium e Black Titanium.",
       "price": 7999,
       "oldPrice": 8999,
       "discount": 11,
-      "images": ["https://picsum.photos/id/0/300/300"],
+      "images": [
+        "https://picsum.photos/id/0/300/300",
+        "https://picsum.photos/id/0/400/400",
+        "https://picsum.photos/id/0/500/500"
+      ],
       "category": "eletronicos",
       "condition": "new",
       "seller": {
@@ -241,17 +311,21 @@
       },
       "location": "São Paulo - SP",
       "stock": 10,
+      "freeShipping": true,
       "createdAt": "2024-01-15T00:00:00.000Z",
       "isFavorite": false
     },
     {
       "id": 2,
       "name": "Notebook Dell XPS 13",
-      "description": "Intel Core i7, 16GB RAM, SSD 512GB, Tela InfinityEdge 4K",
+      "description": "Notebook ultra fino com Intel Core i7 de 13ª geração, 16GB RAM LPDDR5, SSD 512GB PCIe, tela InfinityEdge 4K UHD+ e bateria de até 12 horas.",
       "price": 8999,
       "oldPrice": 10999,
       "discount": 18,
-      "images": ["https://picsum.photos/id/1/300/300"],
+      "images": [
+        "https://picsum.photos/id/1/300/300",
+        "https://picsum.photos/id/1/400/400"
+      ],
       "category": "eletronicos",
       "condition": "new",
       "seller": {
@@ -262,17 +336,21 @@
       },
       "location": "Rio de Janeiro - RJ",
       "stock": 5,
+      "freeShipping": true,
       "createdAt": "2024-02-01T00:00:00.000Z",
       "isFavorite": false
     },
     {
       "id": 3,
       "name": "TV Samsung 65\" 4K",
-      "description": "Smart TV Crystal UHD 4K, Processador Crystal 4K, Alexa Built-in",
+      "description": "Smart TV Crystal UHD 4K com processador Crystal 4K, Alexa Built-in, Gaming Hub e suporte a HDR 10+. Tecnologia PurColor para cores mais vibrantes.",
       "price": 3499,
       "oldPrice": 4499,
       "discount": 22,
-      "images": ["https://picsum.photos/id/2/300/300"],
+      "images": [
+        "https://picsum.photos/id/2/300/300",
+        "https://picsum.photos/id/2/400/400"
+      ],
       "category": "eletronicos",
       "condition": "new",
       "seller": {
@@ -283,17 +361,21 @@
       },
       "location": "São Paulo - SP",
       "stock": 15,
+      "freeShipping": true,
       "createdAt": "2024-01-20T00:00:00.000Z",
       "isFavorite": false
     },
     {
       "id": 4,
       "name": "Camisa Social Masculina",
-      "description": "Camisa Slim Fit, 100% algodão, diversas cores",
+      "description": "Camisa Slim Fit 100% algodão, disponível nas cores branca, azul e preta. Ideal para ambiente corporativo ou ocasiões sociais. Tecido de alta qualidade e caimento perfeito.",
       "price": 129.90,
       "oldPrice": 199.90,
       "discount": 35,
-      "images": ["https://picsum.photos/id/3/300/300"],
+      "images": [
+        "https://picsum.photos/id/3/300/300",
+        "https://picsum.photos/id/3/400/400"
+      ],
       "category": "moda",
       "condition": "new",
       "seller": {
@@ -304,17 +386,21 @@
       },
       "location": "Belo Horizonte - MG",
       "stock": 50,
+      "freeShipping": false,
       "createdAt": "2024-02-10T00:00:00.000Z",
       "isFavorite": false
     },
     {
       "id": 5,
-      "name": "Sofá Retrátil e Reclinável",
-      "description": "Sofá 3 lugares, revestimento em couro, ideal para sua sala",
+      "name": "Sofá Retrátil e Reclinável 3 Lugares",
+      "description": "Sofá confortável com revestimento em couro legítimo, estrutura em madeira maciça e mecanismo de reclinação suave. Disponivel nas cores bege, cinza e marrom.",
       "price": 1899,
       "oldPrice": 2499,
       "discount": 24,
-      "images": ["https://picsum.photos/id/4/300/300"],
+      "images": [
+        "https://picsum.photos/id/4/300/300",
+        "https://picsum.photos/id/4/400/400"
+      ],
       "category": "casa-decoracao",
       "condition": "new",
       "seller": {
@@ -325,17 +411,21 @@
       },
       "location": "Curitiba - PR",
       "stock": 8,
+      "freeShipping": true,
       "createdAt": "2024-01-05T00:00:00.000Z",
       "isFavorite": false
     },
     {
       "id": 6,
-      "name": "Bicicleta Aro 29",
-      "description": "Mountain bike com suspensão, 21 marchas, freio a disco",
+      "name": "Bicicleta Aro 29 Shimano",
+      "description": "Mountain bike com quadro em alumínio, suspensão dianteira de 100mm, 21 marchas Shimano, freios a disco hidráulicos e pneus largos para máxima aderência.",
       "price": 1299,
       "oldPrice": 1899,
       "discount": 31,
-      "images": ["https://picsum.photos/id/5/300/300"],
+      "images": [
+        "https://picsum.photos/id/5/300/300",
+        "https://picsum.photos/id/5/400/400"
+      ],
       "category": "esportes",
       "condition": "new",
       "seller": {
@@ -346,17 +436,21 @@
       },
       "location": "Porto Alegre - RS",
       "stock": 12,
+      "freeShipping": true,
       "createdAt": "2024-02-15T00:00:00.000Z",
       "isFavorite": false
     },
     {
       "id": 7,
       "name": "iPhone 13 - 128GB (Usado)",
-      "description": "Aparelho em ótimo estado, sem marcas de uso, bateria 92%",
+      "description": "Aparelho em ótimo estado, sem marcas de uso, bateria com 92% de saúde. Inclui carregador e cabo originais. Caixa original e notas fiscais.",
       "price": 3299,
       "oldPrice": 4999,
       "discount": 34,
-      "images": ["https://picsum.photos/id/6/300/300"],
+      "images": [
+        "https://picsum.photos/id/6/300/300",
+        "https://picsum.photos/id/6/400/400"
+      ],
       "category": "eletronicos",
       "condition": "used",
       "seller": {
@@ -367,17 +461,21 @@
       },
       "location": "São Paulo - SP",
       "stock": 3,
+      "freeShipping": false,
       "createdAt": "2024-02-18T00:00:00.000Z",
       "isFavorite": false
     },
     {
       "id": 8,
-      "name": "Tênis Nike Air Max",
-      "description": "Conforto e estilo, tecnologia Air Max, diversas cores",
+      "name": "Tênis Nike Air Max 270",
+      "description": "Tênis confortável com tecnologia Air Max no calcanhar, cabedal em mesh respirável, solado em borracha durável. Disponível nas cores preto, branco e azul.",
       "price": 599.90,
       "oldPrice": 899.90,
       "discount": 33,
-      "images": ["https://picsum.photos/id/7/300/300"],
+      "images": [
+        "https://picsum.photos/id/7/300/300",
+        "https://picsum.photos/id/7/400/400"
+      ],
       "category": "moda",
       "condition": "new",
       "seller": {
@@ -388,7 +486,152 @@
       },
       "location": "Rio de Janeiro - RJ",
       "stock": 30,
+      "freeShipping": true,
       "createdAt": "2024-02-12T00:00:00.000Z",
+      "isFavorite": false
+    },
+    {
+      "id": 9,
+      "name": "Smartwatch Samsung Galaxy Watch 6",
+      "description": "Smartwatch com tela AMOLED, monitoramento de saúde completo (batimento cardíaco, pressão, sono), GPS integrado e bateria de longa duração.",
+      "price": 1499,
+      "oldPrice": 1999,
+      "discount": 25,
+      "images": [
+        "https://picsum.photos/id/8/300/300"
+      ],
+      "category": "eletronicos",
+      "condition": "new",
+      "seller": {
+        "id": 1,
+        "name": "Apple Store BR",
+        "rating": 4.9,
+        "sales": 1234
+      },
+      "location": "São Paulo - SP",
+      "stock": 20,
+      "freeShipping": true,
+      "createdAt": "2024-03-01T00:00:00.000Z",
+      "isFavorite": false
+    },
+    {
+      "id": 10,
+      "name": "Fone de Ouvido Bluetooth JBL Tune 760NC",
+      "description": "Fone over-ear com cancelamento de ruído ativo, bateria de até 50 horas, som potente e graves profundos. Compatível com assistentes de voz.",
+      "price": 399,
+      "oldPrice": 599,
+      "discount": 33,
+      "images": [
+        "https://picsum.photos/id/9/300/300"
+      ],
+      "category": "eletronicos",
+      "condition": "new",
+      "seller": {
+        "id": 3,
+        "name": "Samsung Brasil",
+        "rating": 4.9,
+        "sales": 2341
+      },
+      "location": "São Paulo - SP",
+      "stock": 45,
+      "freeShipping": true,
+      "createdAt": "2024-03-05T00:00:00.000Z",
+      "isFavorite": false
+    },
+    {
+      "id": 11,
+      "name": "Tênis Adidas Ultraboost Light",
+      "description": "Tênis com amortecimento responsivo, cabedal em Primeknit, solado com tecnologia Continental. Design moderno e conforto superior.",
+      "price": 799,
+      "oldPrice": 1099,
+      "discount": 27,
+      "images": [
+        "https://picsum.photos/id/10/300/300"
+      ],
+      "category": "moda",
+      "condition": "new",
+      "seller": {
+        "id": 8,
+        "name": "Nike Store",
+        "rating": 4.9,
+        "sales": 3456
+      },
+      "location": "Rio de Janeiro - RJ",
+      "stock": 25,
+      "freeShipping": true,
+      "createdAt": "2024-03-10T00:00:00.000Z",
+      "isFavorite": false
+    },
+    {
+      "id": 12,
+      "name": "Mesa de Jantar 6 Lugares",
+      "description": "Mesa de jantar em madeira maciça, design moderno com tampo de 2 metros, cadeiras com revestimento em veludo. Ideal para salas de jantar.",
+      "price": 1599,
+      "oldPrice": 2099,
+      "discount": 24,
+      "images": [
+        "https://picsum.photos/id/11/300/300"
+      ],
+      "category": "casa-decoracao",
+      "condition": "new",
+      "seller": {
+        "id": 5,
+        "name": "Móveis Top",
+        "rating": 4.6,
+        "sales": 890
+      },
+      "location": "Curitiba - PR",
+      "stock": 6,
+      "freeShipping": true,
+      "createdAt": "2024-03-15T00:00:00.000Z",
+      "isFavorite": false
+    },
+    {
+      "id": 13,
+      "name": "Bicicleta Elétrica de Trilha",
+      "description": "Bicicleta elétrica com motor de 500W, bateria de 36V, autonomia de até 60km, suspensão total e freios a disco hidráulicos.",
+      "price": 4999,
+      "oldPrice": 6999,
+      "discount": 28,
+      "images": [
+        "https://picsum.photos/id/12/300/300"
+      ],
+      "category": "esportes",
+      "condition": "new",
+      "seller": {
+        "id": 6,
+        "name": "Bike World",
+        "rating": 4.8,
+        "sales": 456
+      },
+      "location": "Porto Alegre - RS",
+      "stock": 4,
+      "freeShipping": true,
+      "createdAt": "2024-03-20T00:00:00.000Z",
+      "isFavorite": false
+    },
+    {
+      "id": 14,
+      "name": "Relógio Casio Vintage Digital",
+      "description": "Relógio digital retrô com cronômetro, calendário, alarme e luz de fundo. Design clássico e resistente à água.",
+      "price": 149.90,
+      "oldPrice": 199.90,
+      "discount": 25,
+      "images": [
+        "https://picsum.photos/id/13/300/300"
+      ],
+      "category": "moda",
+      "condition": "new",
+      "seller": {
+        "id": 4,
+        "name": "Moda Fashion",
+        "rating": 4.7,
+        "sales": 5432
+      },
+      "location": "Belo Horizonte - MG",
+      "stock": 60,
+      "freeShipping": false,
+      "createdAt": "2024-03-25T00:00:00.000Z",
       "isFavorite": false
     }
   ],
@@ -397,11 +640,17 @@
       "id": 1,
       "productId": 1,
       "quantity": 1
+    },
+    {
+      "id": 2,
+      "productId": 8,
+      "quantity": 2
     }
   ],
   "orders": [
     {
-      "id": "ORD-1719172800000",
+      "id": "ORD-1719172800000-001",
+      "userId": 1,
       "items": [
         {
           "productId": 1,
@@ -410,6 +659,14 @@
           "price": 7999,
           "subtotal": 7999,
           "image": "https://picsum.photos/id/0/300/300"
+        },
+        {
+          "productId": 8,
+          "productName": "Tênis Nike Air Max 270",
+          "quantity": 1,
+          "price": 599.90,
+          "subtotal": 599.90,
+          "image": "https://picsum.photos/id/7/300/300"
         }
       ],
       "address": {
@@ -429,14 +686,52 @@
         "type": "credit_card",
         "installments": 3
       },
-      "subtotal": 7999,
-      "discount": 0,
+      "subtotal": 8598.90,
+      "discount": 50.00,
       "shipping": 0,
-      "total": 7999,
+      "total": 8548.90,
       "status": "delivered",
       "createdAt": "2024-06-23T00:00:00.000Z",
       "updatedAt": "2024-06-25T00:00:00.000Z",
       "trackingCode": "BR123456789"
+    },
+    {
+      "id": "ORD-1719172800000-002",
+      "userId": 1,
+      "items": [
+        {
+          "productId": 3,
+          "productName": "TV Samsung 65\" 4K",
+          "quantity": 1,
+          "price": 3499,
+          "subtotal": 3499,
+          "image": "https://picsum.photos/id/2/300/300"
+        }
+      ],
+      "address": {
+        "street": "Avenida Paulista",
+        "number": "1000",
+        "complement": "Apto 45",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP",
+        "cep": "01311000",
+        "country": "Brasil"
+      },
+      "paymentMethod": {
+        "id": "pix",
+        "name": "PIX",
+        "icon": "bi-qr-code",
+        "type": "pix"
+      },
+      "subtotal": 3499,
+      "discount": 0,
+      "shipping": 0,
+      "total": 3499,
+      "status": "processing",
+      "createdAt": "2024-06-28T00:00:00.000Z",
+      "updatedAt": "2024-06-28T00:00:00.000Z",
+      "trackingCode": "BR987654321"
     }
   ],
   "users": [
@@ -444,6 +739,7 @@
       "id": 1,
       "name": "Jocimar Galante",
       "email": "jocimar@email.com",
+      "password": "senha123",
       "cpf": "12345678901",
       "phone": "(11) 99999-9999",
       "type": "user",
@@ -472,6 +768,18 @@
       "userId": 1,
       "productId": 3,
       "createdAt": "2024-06-23T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "productId": 8,
+      "createdAt": "2024-06-28T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "productId": 11,
+      "createdAt": "2024-06-28T00:00:00.000Z"
     }
   ]
 }

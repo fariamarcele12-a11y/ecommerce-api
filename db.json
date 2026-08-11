@@ -938,7 +938,7 @@
       "id": "ORD-1719172800000-002",
       "userId": 1,
       "items": [
-        {"productId": 3, "productName": "TV Samsung 65\" 4K", "quantity": 1, "price": 3499, "subtotal": 3499, "image": "https://picsum.photos/id/2/300/300"}
+        {"productId": 3, "productName": "TV Samsung 65\" 4K", "quantity": 1, "price": 5000, "subtotal": 3499, "image": "https://picsum.photos/id/2/300/300"}
       ],
       "address": {
         "street": "Avenida Paulista",
